@@ -31,21 +31,25 @@ const Footer = () => {
         }}
       >
         {isDark ? (
-          <img width="30" height="30" src="https://img.lekoarts.de/gatsby/logo_v2_w30.png" alt="LekoArts Logo" />
+          <img width="30" height="30" src="https://img.lekoarts.de/gatsby/logo_v2-light_w30.png" alt="LekoArts Logo" />
         ) : (
           <img width="30" height="30" src="https://img.lekoarts.de/gatsby/logo_v2_w30.png" alt="LekoArts Logo" />
         )}
         {` `}
-        
+        <Link
+          aria-label="Link to the repo"
+          sx={{ ml: 2 }}
+          href="https://github.com/gflydream"
+        >
           Made with <3
-
+        </Link>
         <div sx={{ mx: 1 }}>by</div>
         {` `}
         <Link
-          aria-label="Link to the author's github page"
+          aria-label="Link to the theme author's repo"
           href="https://www.github.com/gflydream"
         >
-          LekoArts
+          Jian Sun
         </Link>
       </Flex>
     </Box>
