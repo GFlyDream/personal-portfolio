@@ -18,7 +18,7 @@ const Footer = () => {
       >
         {isDark ? `Light` : `Dark`}
       </button>
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+      Copyright &copy; {new Date().getFullYear()} Jian Sun. All rights reserved. Inspired by Cara Theme.
       <br />
       <Flex
         sx={{
