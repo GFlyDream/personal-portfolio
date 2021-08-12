@@ -39,17 +39,17 @@ const Footer = () => {
         <Link
           aria-label="Link to the theme's GitHub repository"
           sx={{ ml: 2 }}
-          href="https://github.com/LekoArts/gatsby-themes/tree/master/themes/gatsby-theme-cara"
+          href="https://github.com/gflydream"
         >
-          Theme
+          Made in beautiful Mtl
         </Link>
         <div sx={{ mx: 1 }}>by</div>
         {` `}
         <Link
           aria-label="Link to the theme author's website"
-          href="https://www.lekoarts.de?utm_source=cara&utm_medium=Theme"
+          href="https://www.github.com/gflydream"
         >
-          LekoArts
+          Jian Sun
         </Link>
       </Flex>
     </Box>
