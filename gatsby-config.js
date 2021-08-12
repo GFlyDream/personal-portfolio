@@ -32,7 +32,7 @@ module.exports = {
         description: `Frontend developer, marketing & branding manager, and student from beautiful Montreal Canada.`,
         start_url: `/`,
         background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        theme_color: `#70f655`,
         display: `standalone`,
         icons: [
           {
