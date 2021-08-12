@@ -41,7 +41,7 @@ const Footer = () => {
           sx={{ ml: 2 }}
           href="https://github.com/gflydream"
         >
-          Made with <3
+          Made with ❤️
         </Link>
         <div sx={{ mx: 1 }}>by</div>
         {` `}
